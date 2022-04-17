@@ -10,8 +10,10 @@
 
 <script setup lang="ts">
 import bg from './assets/1.jpeg'
+import {useStore} from './stores'
+const store = useStore()
 
-
+store.getList()
 </script>
 
 
