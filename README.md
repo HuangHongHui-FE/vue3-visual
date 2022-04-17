@@ -7,3 +7,14 @@ npm install @types/express -D
 npm install axios -S
 ```
 
+
+
+#### 运行数据接口在3333端口
+
+```js
+cd node-api
+node run dev
+```
+
+
+
