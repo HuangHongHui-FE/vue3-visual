@@ -53,3 +53,17 @@ cnpm install axios -S
 ## 项目编译
 
 编译后没有assets目录, 图片应该在script里引入
+
+
+
+## 简单的跨域配置
+
+不安全
+
+```js
+app.use("*", (req, res, next) => {
+    res.header('Access-Control-Allow-Origin', "*");
+    next()
+})
+```
+
