@@ -67,3 +67,11 @@ app.use("*", (req, res, next) => {
 })
 ```
 
+
+
+## 安装echarts
+
+```
+cnpm install echarts -S
+```
+
