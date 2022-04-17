@@ -1,3 +1,5 @@
+## 写接口express, ts
+
 ```js
 npm install ts-node -g
 npm init -y
@@ -18,3 +20,36 @@ node run dev
 
 
 
+## 建前端项目
+
+```js
+npm init vue@latest
+Project-Name: visual
+ts: Yes
+JSX: Yes
+Vue Router: No
+Pinia: Yes
+Vitest: No
+Cypress: No
+Eslint: No
+
+cd visual
+cnpm install
+npm run dev
+
+cnpm install axios -S
+```
+
+
+
+## 新建的项目可以根据电脑主体深浅自动改变颜色主体
+
+在assets/base.css下    prefers-color-scheme属性：light, dark, 
+
+![image-20220417183426900](README.assets/image-20220417183426900.png)
+
+
+
+## 项目编译
+
+编译后没有assets目录, 图片应该在script里引入
