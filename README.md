@@ -75,3 +75,8 @@ app.use("*", (req, res, next) => {
 cnpm install echarts -S
 ```
 
+
+
+## Json2TS插件
+
+将json数据转成ts类型
